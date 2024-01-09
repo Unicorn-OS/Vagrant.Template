@@ -1,0 +1,2 @@
+- https://app.vagrantup.com/roboxes/boxes/ubuntu2304
+- https://app.vagrantup.com/roboxes/boxes/ubuntu2310
