@@ -1,5 +1,8 @@
 sch: https://www.google.com/search?q=vagrant+%22%5B%3A%3A%5D%3A22%22+Address+already+in+use , https://www.google.com/search?q=%22failed+to+create+listening+socket%22+22+address+already+in+use+AND+%22vagrant%22
 
+# Log
+`sudo journalctl -u ssh.socket`
+
 # Discuss:
 - https://joequery.me/guides/multiple-vagrant-vms-ssh-2222-already-in-use/
 - https://groups.google.com/g/vagrant-up/c/Zc-e5hcEjfE
