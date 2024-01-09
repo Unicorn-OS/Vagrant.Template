@@ -1,0 +1,2 @@
+- https://app.vagrantup.com/bento/boxes/ubuntu-22.04
+- https://app.vagrantup.com/bento/boxes/ubuntu-23.04
