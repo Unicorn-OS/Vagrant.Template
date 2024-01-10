@@ -1,0 +1,1011 @@
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Linux version 6.2.0-39-generic (buildd@bos03-amd64-014) (x86_64-linux-gnu-gcc-12 (Ubuntu 12.3.0-1ubuntu1~23.04) 12.3.0, GNU ld (GNU Binutils for Ubuntu) 2.40) #40-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 14 14:18:00 UTC 2023 (Ubuntu 6.2.0-39.40-generic 6.2.16)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Command line: BOOT_IMAGE=/vmlinuz-6.2.0-39-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro = net.ifnames=0 biosdevname=0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: KERNEL supported cpus:
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:   Intel GenuineIntel
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:   AMD AuthenticAMD
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:   Hygon HygonGenuine
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:   Centaur CentaurHauls
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:   zhaoxin   Shanghai  
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: BIOS-provided physical RAM map:
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: BIOS-e820: [mem 0x0000000000100000-0x000000007ffdafff] usable
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: BIOS-e820: [mem 0x000000007ffdb000-0x000000007fffffff] reserved
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NX (Execute Disable) protection: active
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: SMBIOS 2.8 present.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: DMI: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.2-debian-1.16.2-1 04/01/2014
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Hypervisor detected: KVM
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: kvm-clock: using sched offset of 3218778897 cycles
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: tsc: Detected 2496.000 MHz processor
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: last_pfn = 0x7ffdb max_arch_pfn = 0x400000000
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: found SMP MP-table at [mem 0x000f5b60-0x000f5b6f]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Using GB pages for direct mapping
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: RAMDISK: [mem 0x296d7000-0x30b62fff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Early table checksum verification disabled
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: RSDP 0x00000000000F5940 000014 (v00 BOCHS )
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: RSDT 0x000000007FFE1B37 000034 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: FACP 0x000000007FFE19E3 000074 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: DSDT 0x000000007FFE0040 0019A3 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: FACS 0x000000007FFE0000 000040
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: APIC 0x000000007FFE1A57 000080 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: HPET 0x000000007FFE1AD7 000038 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: WAET 0x000000007FFE1B0F 000028 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Reserving FACP table memory at [mem 0x7ffe19e3-0x7ffe1a56]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Reserving DSDT table memory at [mem 0x7ffe0040-0x7ffe19e2]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Reserving FACS table memory at [mem 0x7ffe0000-0x7ffe003f]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Reserving APIC table memory at [mem 0x7ffe1a57-0x7ffe1ad6]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Reserving HPET table memory at [mem 0x7ffe1ad7-0x7ffe1b0e]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Reserving WAET table memory at [mem 0x7ffe1b0f-0x7ffe1b36]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: No NUMA configuration found
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Faking a node at [mem 0x0000000000000000-0x000000007ffdafff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NODE_DATA(0) allocated [mem 0x7ffb0000-0x7ffdafff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Zone ranges:
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:   DMA32    [mem 0x0000000001000000-0x000000007ffdafff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:   Normal   empty
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:   Device   empty
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Movable zone start for each node
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Early memory node ranges
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:   node   0: [mem 0x0000000000100000-0x000000007ffdafff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffdafff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: On node 0, zone DMA: 97 pages in unavailable ranges
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: On node 0, zone DMA32: 37 pages in unavailable ranges
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: PM-Timer IO Port: 0x608
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: TSC deadline timer available
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: [mem 0x80000000-0xfeffbfff] available for PCI devices
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Booting paravirtualized kernel on KVM
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: percpu: Embedded 62 pages/cpu s217088 r8192 d28672 u1048576
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pcpu-alloc: s217088 r8192 d28672 u1048576 alloc=1*2097152
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pcpu-alloc: [0] 0 1 
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: kvm-guest: PV spinlocks disabled, no host support
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Fallback order for Node 0: 0 
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Built 1 zonelists, mobility grouping on.  Total pages: 515803
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Policy zone: DMA32
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-6.2.0-39-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro = net.ifnames=0 biosdevname=0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Unknown kernel command line parameters "= BOOT_IMAGE=/vmlinuz-6.2.0-39-generic biosdevname=0", will be passed to user space.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: random: crng init done
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Memory: 1878300K/2096612K available (20480K kernel code, 4157K rwdata, 13012K rodata, 4764K init, 17536K bss, 218052K reserved, 0K cma-reserved)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ftrace: allocating 53254 entries in 209 pages
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ftrace: allocated 209 pages with 4 groups
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Dynamic Preempt: voluntary
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: rcu: Preemptible hierarchical RCU implementation.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: rcu:         RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:         Trampoline variant of Tasks RCU enabled.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:         Rude variant of Tasks RCU enabled.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:         Tracing variant of Tasks RCU enabled.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Console: colour VGA+ 80x25
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: printk: console [tty0] enabled
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Core revision 20221020
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604467 ns
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: APIC: Switch to symmetric I/O mode setup
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: x2apic enabled
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Switched APIC routing to physical x2apic.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x23fa772cf26, max_idle_ns: 440795269835 ns
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Calibrating delay loop (skipped) preset value.. 4992.00 BogoMIPS (lpj=9984000)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: x86/cpu: User Mode Instruction Prevention (UMIP) activated
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Spectre V2 : Mitigation: Enhanced IBRS
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: MMIO Stale Data: Vulnerable: Clear CPU buffers attempted, no microcode
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: x86/fpu: xstate_offset[9]:  832, xstate_sizes[9]:    8
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: x86/fpu: Enabled xstate features 0x207, context size is 840 bytes, using 'compacted' format.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Freeing SMP alternatives memory: 44K
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pid_max: default: 32768 minimum: 301
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: LSM: initializing lsm=lockdown,capability,landlock,yama,integrity,apparmor
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: landlock: Up and running.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Yama: becoming mindful.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: AppArmor: AppArmor initialized
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: smpboot: CPU0: Intel Atom Processor (SnowRidge) (family: 0x6, model: 0x86, stepping: 0x1)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: cblist_init_generic: Setting adjustable number of callback queues.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: cblist_init_generic: Setting shift to 1 and lim to 1.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: cblist_init_generic: Setting adjustable number of callback queues.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: cblist_init_generic: Setting shift to 1 and lim to 1.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: cblist_init_generic: Setting adjustable number of callback queues.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: cblist_init_generic: Setting shift to 1 and lim to 1.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Performance Events: unsupported p6 CPU model 134 no PMU driver, software events only.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: signal: max sigframe size: 3632
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: rcu: Hierarchical SRCU implementation.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: rcu:         Max phase no-delay instances is 1000.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: smp: Bringing up secondary CPUs ...
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: x86: Booting SMP configuration:
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: .... node  #0, CPUs:      #1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: smpboot: CPU 1 Converting physical 0 to logical die 1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: smp: Brought up 1 node, 2 CPUs
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: smpboot: Max logical packages: 2
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: smpboot: Total of 2 processors activated (9984.00 BogoMIPS)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: devtmpfs: initialized
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: x86/mm: Memory block size: 128MB
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pinctrl core: initialized pinctrl subsystem
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PM: RTC time: 08:56:25, date: 2024-01-10
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: audit: initializing netlink subsys (disabled)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: audit: type=2000 audit(1704876985.726:1): state=initialized audit_enabled=0 res=1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: thermal_sys: Registered thermal governor 'fair_share'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: thermal_sys: Registered thermal governor 'bang_bang'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: thermal_sys: Registered thermal governor 'step_wise'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: thermal_sys: Registered thermal governor 'user_space'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: thermal_sys: Registered thermal governor 'power_allocator'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: EISA bus registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: cpuidle: using governor ladder
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: cpuidle: using governor menu
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PCI: Using configuration type 1 for base access
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Added _OSI(Module Device)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Added _OSI(Processor Device)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: 1 ACPI AML tables successfully acquired and loaded
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Interpreter enabled
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: PM: (supports S0 S3 S4 S5)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Using IOAPIC for interrupt routing
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PCI: Using E820 reservations for host bridge windows
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: Enabled 2 GPEs in block 00 to 0F
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI EDR HPX-Type3]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [3] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [4] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [5] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [6] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [7] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [8] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [9] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [10] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [11] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [12] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [13] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [14] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [15] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [16] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [17] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [18] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [19] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [20] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [21] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [22] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [23] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [24] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [25] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [26] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [27] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [28] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [29] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [30] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: acpiphp: Slot [31] registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PCI host bridge to bus 0000:00
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xfebfffff window]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci_bus 0000:00: root bus resource [mem 0x100000000-0x17fffffff window]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.1: reg 0x20: [io  0xc160-0xc16f]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.2: reg 0x20: [io  0xc100-0xc11f]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:02.0: [1b36:0100] type 00 class 0x030000
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:02.0: reg 0x10: [mem 0xf8000000-0xfbffffff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:02.0: reg 0x14: [mem 0xfc080000-0xfc0bffff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:02.0: reg 0x18: [mem 0xfc0d0000-0xfc0d1fff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:02.0: reg 0x1c: [io  0xc120-0xc13f]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:02.0: reg 0x30: [mem 0xfc0c0000-0xfc0cffff pref]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:03.0: [1af4:1003] type 00 class 0x078000
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:03.0: reg 0x10: [io  0xc080-0xc0bf]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:03.0: reg 0x14: [mem 0xfc0d2000-0xfc0d2fff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:03.0: reg 0x20: [mem 0xfebf0000-0xfebf3fff 64bit pref]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:04.0: [1af4:1001] type 00 class 0x010000
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:04.0: reg 0x10: [io  0xc000-0xc07f]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:04.0: reg 0x14: [mem 0xfc0d3000-0xfc0d3fff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:04.0: reg 0x20: [mem 0xfebf4000-0xfebf7fff 64bit pref]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:05.0: [1af4:1002] type 00 class 0x00ff00
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:05.0: reg 0x10: [io  0xc0c0-0xc0ff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:05.0: reg 0x20: [mem 0xfebf8000-0xfebfbfff 64bit pref]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:06.0: [1af4:1000] type 00 class 0x020000
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:06.0: reg 0x10: [io  0xc140-0xc15f]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:06.0: reg 0x14: [mem 0xfc0d4000-0xfc0d4fff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:06.0: reg 0x20: [mem 0xfebfc000-0xfebfffff 64bit pref]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:06.0: reg 0x30: [mem 0xfc000000-0xfc07ffff pref]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 10
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: PCI: Interrupt link LNKS configured for IRQ 9
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: iommu: Default domain type: Translated 
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: iommu: DMA domain TLB invalidation policy: lazy mode 
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: SCSI subsystem initialized
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: libata version 3.00 loaded.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: bus type USB registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: usbcore: registered new interface driver usbfs
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: usbcore: registered new interface driver hub
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: usbcore: registered new device driver usb
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pps_core: LinuxPPS API ver. 1 registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PTP clock support registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: EDAC MC: Ver: 3.0.0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NetLabel: Initializing
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NetLabel:  domain hash size = 128
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NetLabel:  unlabeled traffic allowed by default
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: mctp: management component transport protocol core
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NET: Registered PF_MCTP protocol family
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PCI: Using ACPI for IRQ routing
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PCI: pci_cache_line_size set to 64 bytes
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: e820: reserve RAM buffer [mem 0x7ffdb000-0x7fffffff]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: vgaarb: loaded
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: clocksource: Switched to clocksource kvm-clock
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: VFS: Disk quotas dquot_6.6.0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: AppArmor: AppArmor Filesystem Enabled
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pnp: PnP ACPI init
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pnp 00:03: [dma 2]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pnp: PnP ACPI: found 5 devices
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NET: Registered PF_INET protocol family
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: TCP bind hash table entries: 16384 (order: 7, 524288 bytes, linear)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: TCP: Hash tables configured (established 16384 bind 16384)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: MPTCP token hash table entries: 2048 (order: 3, 49152 bytes, linear)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes, linear)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes, linear)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NET: Registered PF_XDP protocol family
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff window]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci_bus 0000:00: resource 8 [mem 0x100000000-0x17fffffff window]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: \_SB_.LNKD: Enabled at IRQ 11
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: pci 0000:00:01.2: quirk_usb_early_handoff+0x0/0x190 took 22122 usecs
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PCI: CLS 0 bytes, default 64
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x23fa772cf26, max_idle_ns: 440795269835 ns
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Trying to unpack rootfs image as initramfs...
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Initialise system trusted keyrings
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Key type blacklist registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: workingset: timestamp_bits=36 max_order=19 bucket_order=0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: zbud: loaded
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: fuse: init (API version 7.38)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: integrity: Platform Keyring initialized
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: integrity: Machine keyring initialized
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Key type asymmetric registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Asymmetric key parser 'x509' registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: io scheduler mq-deadline registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: button: Power Button [PWRF]
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: \_SB_.LNKC: Enabled at IRQ 10
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: \_SB_.LNKA: Enabled at IRQ 10
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: \_SB_.LNKB: Enabled at IRQ 11
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: 00:00: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Linux agpgart interface v0.103
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: loop: module loaded
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ata_piix 0000:00:01.1: version 2.13
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: scsi host0: ata_piix
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: scsi host1: ata_piix
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc160 irq 14
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc168 irq 15
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: tun: Universal TUN/TAP device driver, 1.6
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PPP generic driver version 2.4.2
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: uhci_hcd 0000:00:01.2: UHCI Host Controller
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: uhci_hcd 0000:00:01.2: detected 2 ports
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: uhci_hcd 0000:00:01.2: irq 11, io port 0x0000c100
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.02
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: usb usb1: Product: UHCI Host Controller
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: usb usb1: Manufacturer: Linux 6.2.0-39-generic uhci_hcd
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: usb usb1: SerialNumber: 0000:00:01.2
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: hub 1-0:1.0: USB hub found
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: hub 1-0:1.0: 2 ports detected
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: mousedev: PS/2 mouse device common for all mice
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: rtc_cmos 00:04: RTC can wake from S4
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: rtc_cmos 00:04: registered as rtc0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: rtc_cmos 00:04: setting system clock to 2024-01-10T08:56:25 UTC (1704876985)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: rtc_cmos 00:04: alarms up to one day, y3k, 242 bytes nvram, hpet irqs
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: i2c_dev: i2c /dev entries driver
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: device-mapper: uevent: version 1.0.3
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: device-mapper: ioctl: 4.47.0-ioctl (2022-07-28) initialised: dm-devel@redhat.com
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: platform eisa.0: Probing EISA bus 0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: platform eisa.0: EISA: Cannot allocate resource for mainboard
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: platform eisa.0: Cannot allocate resource for EISA slot 1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: platform eisa.0: Cannot allocate resource for EISA slot 2
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: platform eisa.0: Cannot allocate resource for EISA slot 3
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: platform eisa.0: Cannot allocate resource for EISA slot 4
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: platform eisa.0: Cannot allocate resource for EISA slot 5
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: platform eisa.0: Cannot allocate resource for EISA slot 6
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: platform eisa.0: Cannot allocate resource for EISA slot 7
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: platform eisa.0: Cannot allocate resource for EISA slot 8
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: platform eisa.0: EISA: Detected 0 cards
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: intel_pstate: CPU model not supported
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ledtrig-cpu: registered to indicate activity on CPUs
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: drop_monitor: Initializing network drop monitor service
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NET: Registered PF_INET6 protocol family
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Freeing initrd memory: 119344K
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Segment Routing with IPv6
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: In-situ OAM (IOAM) with IPv6
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: NET: Registered PF_PACKET protocol family
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Key type dns_resolver registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: IPI shorthand broadcast: enabled
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: sched_clock: Marking stable (630794230, 19946864)->(674305884, -23564790)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: registered taskstats version 1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loading compiled-in X.509 certificates
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 6eddb12449a36413eb2a4fa19a0e4a40816a388f'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: blacklist: Loading compiled-in revocation X.509 certificates
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: zswap: loaded using pool lzo/zbud
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Key type .fscrypt registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Key type fscrypt-provisioning registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Key type encrypted registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: AppArmor: AppArmor sha1 policy hashing enabled
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ima: No TPM chip found, activating TPM-bypass!
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loading compiled-in module X.509 certificates
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 6eddb12449a36413eb2a4fa19a0e4a40816a388f'
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ima: Allocated hash algorithm: sha1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ima: No architecture policies found
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: evm: Initialising EVM extended attributes:
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: evm: security.selinux
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: evm: security.SMACK64
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: evm: security.SMACK64EXEC
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: evm: security.SMACK64TRANSMUTE
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: evm: security.SMACK64MMAP
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: evm: security.apparmor
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: evm: security.ima
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: evm: security.capability
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: evm: HMAC attrs: 0x1
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: PM:   Magic number: 8:457:927
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: RAS: Correctable Errors collector initialized.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Freeing unused decrypted memory: 2036K
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Freeing unused kernel image (initmem) memory: 4764K
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Write protecting the kernel read-only data: 34816k
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Freeing unused kernel image (rodata/data gap) memory: 1324K
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Run /init as init process
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:   with arguments:
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:     /init
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:     =
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:   with environment:
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:     HOME=/
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:     TERM=linux
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:     BOOT_IMAGE=/vmlinuz-6.2.0-39-generic
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:     biosdevname=0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: piix4_smbus 0000:00:01.3: SMBus Host Controller at 0x700, revision 0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: virtio_blk virtio1: 2/0/0 default/read/poll queues
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: virtio_blk virtio1: [vda] 268435456 512-byte logical blocks (137 GB/128 GiB)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: ACPI: bus type drm_connector registered
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: cryptd: max_cpu_qlen set to 1000
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: AVX2 version of gcm_enc/dec engaged.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: AES CTR mode by8 optimization enabled
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: FDC 0 is a S82078B
+Jan 10 08:56:26 ubuntu2304.localdomain kernel:  vda: vda1 vda2 vda3
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input4
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: qxl 0000:00:02.0: vgaarb: deactivate vga console
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Console: switching to colour dummy device 80x25
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: [drm] Device Version 0.0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: [drm] Compression level 0 log level 0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: [drm] 12286 io pages at offset 0x1000000
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: [drm] 16777216 byte draw area at offset 0x0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: [drm] RAM header offset: 0x3ffe000
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: [drm] qxl: 16M of VRAM memory size
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: [drm] qxl: 63M of IO pages memory ready (VRAM domain)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: [drm] qxl: 0M of Surface memory size
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: [drm] slot 0 (main): base 0xf8000000, size 0x03ffe000
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: [drm] slot 1 (surfaces): base 0xfc080000, size 0x00040000
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: [drm] Initialized qxl 0.1.0 20120117 for 0000:00:02.0 on minor 0
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: fbcon: qxldrmfb (fb0) is primary device
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Console: switching to colour frame buffer device 128x48
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: qxl 0000:00:02.0: [drm] fb0: qxldrmfb frame buffer device
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: raid6: avx2x4   gen() 36366 MB/s
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: raid6: avx2x2   gen() 38009 MB/s
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: raid6: avx2x1   gen() 37491 MB/s
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: raid6: using algorithm avx2x2 gen() 38009 MB/s
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: raid6: .... xor() 28772 MB/s, rmw enabled
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: raid6: using avx2x2 recovery algorithm
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: xor: automatically using best checksumming function   avx       
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: async_tx: api initialized (async)
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Btrfs loaded, crc32c=crc32c-intel, zoned=yes, fsverity=yes
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: EXT4-fs (dm-0): orphan cleanup on readonly fs
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: EXT4-fs (dm-0): mounted filesystem 3a105547-f28f-45d8-bf75-60d7c654ad5d with ordered data mode. Quota mode: none.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Inserted module 'autofs4'
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: systemd 252.5-2ubuntu3.2 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Detected virtualization kvm.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Detected architecture x86-64.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Hostname set to <ubuntu2304.localdomain>.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Initializing machine ID from VM UUID.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Installed transient /etc/machine-id file.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: multi-user.target: Wants dependency dropin /etc/systemd/system/multi-user.target.wants/hv-kvp-daemon.service is not a symlink, ignoring.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Queued start job for default target graphical.target.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Unnecessary job was removed for sys-devices-virtual-misc-vmbus\x21hv_vss.device - /sys/devices/virtual/misc/vmbus!hv_vss.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Unnecessary job was removed for sys-devices-virtual-misc-vmbus\x21hv_fcopy.device - /sys/devices/virtual/misc/vmbus!hv_fcopy.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Created slice system-modprobe.slice - Slice /system/modprobe.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Created slice system-systemd\x2dfsck.slice - Slice /system/systemd-fsck.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Created slice user.slice - User and Session Slice.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Started systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Set up automount proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Reached target integritysetup.target - Local Integrity Protected Volumes.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Reached target slices.target - Slice Units.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Reached target snapd.mounts-pre.target - Mounting snaps.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Reached target veritysetup.target - Local Verity Protected Volumes.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Listening on dm-event.socket - Device-mapper event daemon FIFOs.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Listening on lvm2-lvmpolld.socket - LVM2 poll daemon socket.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Listening on multipathd.socket - multipathd control socket.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Listening on syslog.socket - Syslog Socket.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Listening on systemd-fsckd.socket - fsck to fsckd communication Socket.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Listening on systemd-initctl.socket - initctl Compatibility Named Pipe.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Listening on systemd-journald-audit.socket - Journal Audit Socket.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Listening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Listening on systemd-journald.socket - Journal Socket.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Listening on systemd-networkd.socket - Network Service Netlink Socket.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Listening on systemd-udevd-control.socket - udev Control Socket.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Listening on systemd-udevd-kernel.socket - udev Kernel Socket.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Mounting dev-hugepages.mount - Huge Pages File System...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Mounting dev-mqueue.mount - POSIX Message Queue File System...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Mounting sys-kernel-tracing.mount - Kernel Trace File System...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting systemd-journald.service - Journal Service...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting kmod-static-nodes.service - Create List of Static Device Nodes...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: lxd-agent.service - LXD - agent was skipped because of an unmet condition check (ConditionPathExists=/dev/virtio-ports/org.linuxcontainers.lxd).
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting modprobe@configfs.service - Load Kernel Module configfs...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting modprobe@fuse.service - Load Kernel Module fuse...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: netplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup was skipped because of an unmet condition check (ConditionFileIsExecutable=/usr/bin/ovs-vsctl).
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: systemd-fsck-root.service - File System Check on Root Device was skipped because of an unmet condition check (ConditionPathExists=!/run/initramfs/fsck-root).
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting systemd-network-generator.service - Generate network units from Kernel command line...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: systemd-repart.service - Repartition Root Disk was skipped because no trigger condition checks were met.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: EXT4-fs (dm-0): re-mounted 3a105547-f28f-45d8-bf75-60d7c654ad5d. Quota mode: none.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting systemd-udev-trigger.service - Coldplug All udev Devices...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Mounted dev-hugepages.mount - Huge Pages File System.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Mounted dev-mqueue.mount - POSIX Message Queue File System.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Mounted sys-kernel-tracing.mount - Kernel Trace File System.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Finished kmod-static-nodes.service - Create List of Static Device Nodes.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: modprobe@configfs.service: Deactivated successfully.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd-journald[273]: Journal started
+Jan 10 08:56:26 ubuntu2304.localdomain systemd-journald[273]: Runtime Journal (/run/log/journal/947760dfdedb4599bf22ae1c9d3ae881) is 2.4M, max 19.5M, 17.1M free.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd-modules-load[283]: Inserted module 'msr'
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Finished modprobe@configfs.service - Load Kernel Module configfs.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Started systemd-journald.service - Journal Service.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: modprobe@drm.service: Deactivated successfully.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Finished modprobe@drm.service - Load Kernel Module drm.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Finished modprobe@efi_pstore.service - Load Kernel Module efi_pstore.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: modprobe@fuse.service: Deactivated successfully.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Finished modprobe@fuse.service - Load Kernel Module fuse.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Finished systemd-modules-load.service - Load Kernel Modules.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Finished systemd-network-generator.service - Generate network units from Kernel command line.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Finished systemd-remount-fs.service - Remount Root and Kernel File Systems.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Activating swap swap.img.swap - /swap.img...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Mounting sys-fs-fuse-connections.mount - FUSE Control File System...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Mounting sys-kernel-config.mount - Kernel Configuration File System...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting multipathd.service - Device-Mapper Multipath Device Controller...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: systemd-firstboot.service - First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting systemd-random-seed.service - Load/Save Random Seed...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting systemd-sysctl.service - Apply Kernel Variables...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting systemd-sysusers.service - Create System Users...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Mounted sys-fs-fuse-connections.mount - FUSE Control File System.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Mounted sys-kernel-config.mount - Kernel Configuration File System.
+Jan 10 08:56:26 ubuntu2304.localdomain kernel: Adding 2097148k swap on /swap.img.  Priority:-2 extents:4 across:2637820k FS
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Activated swap swap.img.swap - /swap.img.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Reached target swap.target - Swaps.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd-journald[273]: Time spent on flushing to /var/log/journal/947760dfdedb4599bf22ae1c9d3ae881 is 4.023ms for 592 entries.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd-journald[273]: System Journal (/var/log/journal/947760dfdedb4599bf22ae1c9d3ae881) is 8.0M, max 4.0G, 3.9G free.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd-journald[273]: Received client request to flush runtime journal.
+Jan 10 08:56:27 ubuntu2304.localdomain kernel: alua: device handler registered
+Jan 10 08:56:27 ubuntu2304.localdomain kernel: emc: device handler registered
+Jan 10 08:56:27 ubuntu2304.localdomain kernel: rdac: device handler registered
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+Jan 10 08:56:27 ubuntu2304.localdomain lvm[278]:   1 logical volume(s) in volume group "ubuntu-vg" monitored
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Starting ifupdown-pre.service - Helper to synchronize boot up for ifupdown...
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Finished systemd-random-seed.service - Load/Save Random Seed.
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: first-boot-complete.target - First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+Jan 10 08:56:26 ubuntu2304.localdomain systemd[1]: Finished ifupdown-pre.service - Helper to synchronize boot up for ifupdown.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Finished systemd-sysusers.service - Create System Users.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Finished lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Finished keyboard-setup.service - Set the console keyboard layout.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+Jan 10 08:56:27 ubuntu2304.localdomain multipathd[318]: --------start up--------
+Jan 10 08:56:27 ubuntu2304.localdomain multipathd[318]: read /etc/multipath.conf
+Jan 10 08:56:27 ubuntu2304.localdomain multipathd[318]: path checkers start up
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Started multipathd.service - Device-Mapper Multipath Device Controller.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Mounting snap-core22-607.mount - Mount unit for core22, revision 607...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Mounting snap-lxd-24643.mount - Mount unit for lxd, revision 24643...
+Jan 10 08:56:27 ubuntu2304.localdomain kernel: loop0: detected capacity change from 0 to 333824
+Jan 10 08:56:27 ubuntu2304.localdomain kernel: loop1: detected capacity change from 0 to 102072
+Jan 10 08:56:27 ubuntu2304.localdomain kernel: loop2: detected capacity change from 0 to 149488
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Mounting snap-snapd-18596.mount - Mount unit for snapd, revision 18596...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Mounted snap-lxd-24643.mount - Mount unit for lxd, revision 24643.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Mounted snap-snapd-18596.mount - Mount unit for snapd, revision 18596.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Mounted snap-core22-607.mount - Mount unit for core22, revision 607.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Reached target snapd.mounts.target - Mounted snaps.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd-udevd[323]: Using default interface naming scheme 'v252'.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: plymouth-start.service - Show Plymouth Boot Screen was skipped because of an unmet condition check (ConditionKernelCommandLine=splash).
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Started systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: systemd-ask-password-plymouth.path - Forward Password Requests to Plymouth Directory Watch was skipped because of an unmet condition check (ConditionPathExists=/run/plymouth/pid).
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Reached target cryptsetup.target - Local Encrypted Volumes.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd-udevd[341]: Network interface NamePolicy= disabled on kernel command line.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd-udevd[335]: event_source: Failed to get device name: No such file or directory
+Jan 10 08:56:27 ubuntu2304.localdomain systemd-udevd[337]: vda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/vda' failed with exit code 1.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd-udevd[342]: dm-0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/dm-0' failed with exit code 1.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd-udevd[343]: vda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/vda2' failed with exit code 1.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd-udevd[337]: vda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/vda1' failed with exit code 1.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Found device dev-disk-by\x2duuid-fb1838a5\x2d6931\x2d44ff\x2dbb04\x2d0c020730a69f.device - /dev/disk/by-uuid/fb1838a5-6931-44ff-bb04-0c020730a69f.
+Jan 10 08:56:27 ubuntu2304.localdomain lvm[382]: PV /dev/vda3 online, VG ubuntu-vg is complete.
+Jan 10 08:56:27 ubuntu2304.localdomain lvm[382]: VG ubuntu-vg finished
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Starting systemd-fsck@dev-disk-by\x2duuid-fb1838a5\x2d6931\x2d44ff\x2dbb04\x2d0c020730a69f.service - File System Check on /dev/disk/by-uuid/fb1838a5-6931-44ff-bb04-0c020730a69f...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Started systemd-fsckd.service - File System Check Daemon to report status.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd-fsck[411]: /dev/vda2: clean, 318/131072 files, 93201/524288 blocks
+Jan 10 08:56:27 ubuntu2304.localdomain systemd-udevd[345]: vda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/vda3' failed with exit code 1.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Finished systemd-fsck@dev-disk-by\x2duuid-fb1838a5\x2d6931\x2d44ff\x2dbb04\x2d0c020730a69f.service - File System Check on /dev/disk/by-uuid/fb1838a5-6931-44ff-bb04-0c020730a69f.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Mounting boot.mount - /boot...
+Jan 10 08:56:27 ubuntu2304.localdomain kernel: EXT4-fs (vda2): mounted filesystem fb1838a5-6931-44ff-bb04-0c020730a69f with ordered data mode. Quota mode: none.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Mounted boot.mount - /boot.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Reached target local-fs.target - Local File Systems.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Starting apparmor.service - Load AppArmor profiles...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Starting console-setup.service - Set console font and keymap...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Starting finalrd.service - Create final runtime dir for shutdown pivot root...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Starting plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Starting systemd-machine-id-commit.service - Commit a transient machine-id on disk...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Starting systemd-tmpfiles-setup.service - Create Volatile Files and Directories...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Starting ufw.service - Uncomplicated firewall...
+Jan 10 08:56:27 ubuntu2304.localdomain apparmor.systemd[456]: Restarting AppArmor
+Jan 10 08:56:27 ubuntu2304.localdomain apparmor.systemd[456]: Reloading AppArmor profiles
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Finished finalrd.service - Create final runtime dir for shutdown pivot root.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 466 (systemd-binfmt)
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Finished ufw.service - Uncomplicated firewall.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Reached target network-pre.target - Preparation for Network.
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Starting systemd-networkd.service - Network Configuration...
+Jan 10 08:56:27 ubuntu2304.localdomain systemd[1]: Finished plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 482 ((networkd))
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished systemd-tmpfiles-setup.service - Create Volatile Files and Directories.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting systemd-resolved.service - Network Name Resolution...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting systemd-timesyncd.service - Network Time Synchronization...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+Jan 10 08:56:28 ubuntu2304.localdomain audit[493]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=493 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[494]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=494 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[494]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=494 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: etc-machine\x2did.mount: Deactivated successfully.
+Jan 10 08:56:28 ubuntu2304.localdomain kernel: audit: type=1400 audit(1704876988.056:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=493 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain kernel: cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Jan 10 08:56:28 ubuntu2304.localdomain kernel: cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Jan 10 08:56:28 ubuntu2304.localdomain kernel: audit: type=1400 audit(1704876988.056:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=494 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain kernel: audit: type=1400 audit(1704876988.056:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=494 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished systemd-machine-id-commit.service - Commit a transient machine-id on disk.
+Jan 10 08:56:28 ubuntu2304.localdomain audit[504]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=504 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[504]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=504 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[504]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=504 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-networkd[482]: lo: Link UP
+Jan 10 08:56:28 ubuntu2304.localdomain kernel: audit: type=1400 audit(1704876988.068:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=504 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain kernel: audit: type=1400 audit(1704876988.068:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=504 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain kernel: audit: type=1400 audit(1704876988.068:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=504 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain kernel: audit: type=1400 audit(1704876988.072:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=502 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain kernel: audit: type=1400 audit(1704876988.072:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=502 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain kernel: audit: type=1400 audit(1704876988.072:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=502 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[502]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=502 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[502]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=502 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[502]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=502 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[502]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/{,usr/}sbin/dhclient" pid=502 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[507]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="tcpdump" pid=507 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-networkd[482]: lo: Gained carrier
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-networkd[482]: Enumeration completed
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started systemd-networkd.service - Network Configuration.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-networkd[482]: eth0: found matching network '/run/systemd/network/10-netplan-eth0.network', based on potentially unpredictable interface name.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-networkd[482]: eth0: Configuring with /run/systemd/network/10-netplan-eth0.network.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-networkd[482]: eth0: Link UP
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-networkd[482]: eth0: Gained carrier
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-networkd[482]: eth0: found matching network '/run/systemd/network/10-netplan-eth0.network', based on potentially unpredictable interface name.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting systemd-networkd-wait-online.service - Wait for Network to be Configured...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started systemd-timesyncd.service - Network Time Synchronization.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Reached target time-set.target - System Time Set.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished systemd-networkd-wait-online.service - Wait for Network to be Configured.
+Jan 10 08:56:28 ubuntu2304.localdomain audit[509]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=509 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[509]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=509 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[510]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/haveged" pid=510 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-resolved[491]: Positive Trust Anchors:
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-resolved[491]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-resolved[491]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Jan 10 08:56:28 ubuntu2304.localdomain audit[512]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="rsyslogd" pid=512 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished apparmor.service - Load AppArmor profiles.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started haveged.service - Entropy Daemon based on the HAVEGE algorithm.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting networking.service - Raise network interfaces...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting snapd.apparmor.service - Load AppArmor profiles managed internally by snapd...
+Jan 10 08:56:28 ubuntu2304.localdomain haveged[513]: haveged: command socket is listening at fd 3
+Jan 10 08:56:28 ubuntu2304.localdomain snapd-apparmor[515]: main.go:124: Loading profiles [/var/lib/snapd/apparmor/profiles/snap-confine.snapd.18596 /var/lib/snapd/apparmor/profiles/snap-update-ns.lxd /var/lib/snapd/apparmor/profiles/snap.lxd.activate /var/lib/snapd/apparmor/profiles/snap.lxd.benchmark /var/lib/snapd/apparmor/profiles/snap.lxd.buginfo /var/lib/snapd/apparmor/profiles/snap.lxd.check-kernel /var/lib/snapd/apparmor/profiles/snap.lxd.daemon /var/lib/snapd/apparmor/profiles/snap.lxd.hook.configure /var/lib/snapd/apparmor/profiles/snap.lxd.hook.install /var/lib/snapd/apparmor/profiles/snap.lxd.hook.remove /var/lib/snapd/apparmor/profiles/snap.lxd.lxc /var/lib/snapd/apparmor/profiles/snap.lxd.lxc-to-lxd /var/lib/snapd/apparmor/profiles/snap.lxd.lxd /var/lib/snapd/apparmor/profiles/snap.lxd.migrate /var/lib/snapd/apparmor/profiles/snap.lxd.user-daemon]
+Jan 10 08:56:28 ubuntu2304.localdomain haveged[513]: haveged starting up
+Jan 10 08:56:28 ubuntu2304.localdomain audit[532]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.lxd" pid=532 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[531]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/18596/usr/lib/snapd/snap-confine" pid=531 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[531]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/18596/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=531 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-resolved[491]: Using system hostname 'ubuntu2304.localdomain'.
+Jan 10 08:56:28 ubuntu2304.localdomain audit[540]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.benchmark" pid=540 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[537]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.activate" pid=537 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started systemd-resolved.service - Network Name Resolution.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Reached target nss-lookup.target - Host and Network Name Lookups.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished networking.service - Raise network interfaces.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Reached target network.target - Network.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Reached target network-online.target - Network is Online.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: open-iscsi.service - Login to default iSCSI targets was skipped because no trigger condition checks were met.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Reached target remote-fs-pre.target - Preparation for Remote File Systems.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Reached target remote-fs.target - Remote File Systems.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished blk-availability.service - Availability of block devices.
+Jan 10 08:56:28 ubuntu2304.localdomain audit[541]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.buginfo" pid=541 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[542]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.check-kernel" pid=542 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[559]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.daemon" pid=559 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[561]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.hook.install" pid=561 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[560]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.hook.configure" pid=560 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[563]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.lxc" pid=563 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[564]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.lxc-to-lxd" pid=564 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[565]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.lxd" pid=565 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[562]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.hook.remove" pid=562 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[566]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.migrate" pid=566 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[567]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.user-daemon" pid=567 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished snapd.apparmor.service - Load AppArmor profiles managed internally by snapd.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Reached target sysinit.target - System Initialization.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: tpm-udev.path - Handle dynamically added tpm devices was skipped because of an unmet condition check (ConditionVirtualization=container).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started fstrim.timer - Discard unused blocks once a week.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started fwupd-refresh.timer - Refresh fwupd metadata regularly.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started logrotate.timer - Daily rotation of log files.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started man-db.timer - Daily man-db regeneration.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started plocate-updatedb.timer - Update the plocate database daily.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: snapd.snap-repair.timer - Timer to automatically fetch and run repair assertions was skipped because no trigger condition checks were met.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started sysstat-collect.timer - Run system activity accounting tool every 10 minutes.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started sysstat-summary.timer - Generate summary of yesterday's process accounting.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: ua-timer.timer - Ubuntu Pro Timer for running repeated jobs was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Reached target paths.target - Path Units.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Reached target timers.target - Timer Units.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: apport-forward.socket - Unix socket for apport crash forwarding was skipped because of an unmet condition check (ConditionVirtualization=container).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Listening on dbus.socket - D-Bus System Message Bus Socket.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Listening on iscsid.socket - Open-iSCSI iscsid Socket.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Listening on snap.lxd.daemon.unix.socket - Socket unix for snap application lxd.daemon.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Listening on snap.lxd.user-daemon.unix.socket - Socket unix for snap application lxd.user-daemon.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting snapd.socket - Socket activation for snappy daemon...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Listening on ssh.socket - OpenBSD Secure Shell server socket.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Listening on uuidd.socket - UUID daemon activation socket.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: systemd-pcrphase-sysinit.service - TPM2 PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Listening on snapd.socket - Socket activation for snappy daemon.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Reached target sockets.target - Socket Units.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Reached target basic.target - Basic System.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting apport.service - automatic crash report generation...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started cron.service - Regular background program processing daemon.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting dbus.service - D-Bus System Message Bus...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started dmesg.service - Save initial kernel messages after boot.
+Jan 10 08:56:28 ubuntu2304.localdomain cron[571]: (CRON) INFO (pidfile fd = 3)
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting grub-common.service - Record successful boot for GRUB...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: hv-fcopy-daemon.service - Hyper-V File Copy Protocol Daemon was skipped because of an unmet condition check (ConditionPathExists=/dev/vmbus/hv_fcopy).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: hv-vss-daemon.service - Hyper-V VSS Protocol Daemon was skipped because of an unmet condition check (ConditionPathExists=/dev/vmbus/hv_vss).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting ifplugd.service - LSB: Brings up/down network automatically...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started irqbalance.service - irqbalance daemon.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: networkd-dispatcher.service - Dispatcher daemon for systemd-networkd was skipped because no trigger condition checks were met.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting polkit.service - Authorization Manager...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: pollinate.service - Pollinate to seed the pseudo random number generator was skipped because of an unmet condition check (ConditionPathExists=!/var/cache/pollinate/seeded).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting rsyslog.service - System Logging Service...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: secureboot-db.service - Secure Boot updates for DB and DBX was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/db-d719b2cb-3d3a-4596-a3bc-dad00e67656f).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting snap.lxd.activate.service - Service for snap application lxd.activate...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started snapd.aa-prompt-listener.service - Userspace listener for prompt events.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: snapd.core-fixup.service - Automatically repair incorrect owner/permissions on core devices was skipped because no trigger condition checks were met.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: snapd.recovery-chooser-trigger.service - Wait for the Ubuntu Core chooser trigger was skipped because of an unmet condition check (ConditionKernelCommandLine=snapd_recovery_mode).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Reached target getty-pre.target - Preparation for Logins.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting snapd.service - Snap Daemon...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting sysstat.service - Resets System Activity Logs...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting systemd-logind.service - User Login Management...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: systemd-pcrphase.service - TPM2 PCR Barrier (User) was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: thermald.service - Thermal Daemon Service was skipped because of an unmet condition check (ConditionVirtualization=no).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: ua-reboot-cmds.service - Ubuntu Pro reboot cmds was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: ubuntu-advantage.service - Ubuntu Pro Background Auto Attach was skipped because no trigger condition checks were met.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting udisks2.service - Disk Manager...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting logrotate.service - Rotate log files...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting plymouth-quit.service - Terminate Plymouth Boot Screen...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished plymouth-quit-wait.service - Hold until boot process finishes up.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting setvtrgb.service - Set console scheme...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished setvtrgb.service - Set console scheme.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Created slice system-getty.slice - Slice /system/getty.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started getty@tty1.service - Getty on tty1.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Reached target getty.target - Login Prompts.
+Jan 10 08:56:28 ubuntu2304.localdomain cron[571]: (CRON) INFO (Running @reboot jobs)
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished plymouth-quit.service - Terminate Plymouth Boot Screen.
+Jan 10 08:56:28 ubuntu2304.localdomain ifplugd[576]:  * Network Interface Plugging Daemon...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: e2scrub_reap.service: Deactivated successfully.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+Jan 10 08:56:28 ubuntu2304.localdomain ifplugd[576]:  * start eth0...
+Jan 10 08:56:28 ubuntu2304.localdomain CRON[610]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan 10 08:56:28 ubuntu2304.localdomain CRON[609]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan 10 08:56:28 ubuntu2304.localdomain CRON[621]: (root) CMD (command bash -c 'export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/sbin ; export DEBIAN_FRONTEND=noninteractive ; export DEBCONF_NONINTERACTIVE_SEEN=true ; /usr/sbin/dpkg-reconfigure openssh-server &>/dev/null ; /bin/systemctl restart ssh.service ; rm --force /etc/cron.d/keys')
+Jan 10 08:56:28 ubuntu2304.localdomain CRON[622]: (root) CMD (command bash -c '/etc/cron.daily/mlocate')
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished sysstat.service - Resets System Activity Logs.
+Jan 10 08:56:28 ubuntu2304.localdomain ifplugd(eth0)[637]: ifplugd 0.28 initializing.
+Jan 10 08:56:28 ubuntu2304.localdomain ifplugd(eth0)[637]: Using interface eth0/52:54:00:2C:FE:1C with driver <virtio_net> (version: 1.0.0)
+Jan 10 08:56:28 ubuntu2304.localdomain snapd-aa-prompt-listener[587]: AA Prompt listener not implemented
+Jan 10 08:56:28 ubuntu2304.localdomain udisksd[593]: udisks daemon version 2.9.4 starting
+Jan 10 08:56:28 ubuntu2304.localdomain ifplugd(eth0)[637]: Using detection mode: SIOCETHTOOL
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: snapd.aa-prompt-listener.service: Deactivated successfully.
+Jan 10 08:56:28 ubuntu2304.localdomain ifplugd(eth0)[637]: Initialization complete, link beat detected.
+Jan 10 08:56:28 ubuntu2304.localdomain CRON[609]: (CRON) info (No MTA installed, discarding output)
+Jan 10 08:56:28 ubuntu2304.localdomain CRON[609]: pam_unix(cron:session): session closed for user root
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: grub-common.service: Deactivated successfully.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished grub-common.service - Record successful boot for GRUB.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting grub-initrd-fallback.service - GRUB failed boot detection...
+Jan 10 08:56:28 ubuntu2304.localdomain dbus-daemon[572]: dbus[572]: Unknown group "power" in message bus configuration file
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: grub-initrd-fallback.service: Deactivated successfully.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished grub-initrd-fallback.service - GRUB failed boot detection.
+Jan 10 08:56:28 ubuntu2304.localdomain dbus-daemon[572]: [system] AppArmor D-Bus mediation is enabled
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started dbus.service - D-Bus System Message Bus.
+Jan 10 08:56:28 ubuntu2304.localdomain polkitd[580]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started polkit.service - Authorization Manager.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Starting ModemManager.service - Modem Manager...
+Jan 10 08:56:28 ubuntu2304.localdomain udisksd[593]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Jan 10 08:56:28 ubuntu2304.localdomain udisksd[593]: Failed to load the 'mdraid' libblockdev plugin
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-logind[590]: New seat seat0.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-logind[590]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 10 08:56:28 ubuntu2304.localdomain systemd-logind[590]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started systemd-logind.service - User Login Management.
+Jan 10 08:56:28 ubuntu2304.localdomain ifplugd(eth0)[637]: Executing '/etc/ifplugd/ifplugd.action eth0 up'.
+Jan 10 08:56:28 ubuntu2304.localdomain ifplugd(eth0)[637]: client: ifup: unknown interface eth0
+Jan 10 08:56:28 ubuntu2304.localdomain ifplugd(eth0)[637]: client: run-parts: /etc/ifplugd/action.d//ifupdown exited with return code 1
+Jan 10 08:56:28 ubuntu2304.localdomain ModemManager[648]: <info>  ModemManager (version 1.20.4) starting in system bus...
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: logrotate.service: Deactivated successfully.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished logrotate.service - Rotate log files.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started ModemManager.service - Modem Manager.
+Jan 10 08:56:28 ubuntu2304.localdomain snapd[588]: overlord.go:270: Acquiring state lock file
+Jan 10 08:56:28 ubuntu2304.localdomain snapd[588]: overlord.go:275: Acquired state lock file
+Jan 10 08:56:28 ubuntu2304.localdomain ifplugd(eth0)[637]: Program execution failed, return value is 1.
+Jan 10 08:56:28 ubuntu2304.localdomain ifplugd[576]:    ...done.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started ifplugd.service - LSB: Brings up/down network automatically.
+Jan 10 08:56:28 ubuntu2304.localdomain snapd[588]: patch.go:64: Patching system state level 6 to sublevel 1...
+Jan 10 08:56:28 ubuntu2304.localdomain snapd[588]: patch.go:64: Patching system state level 6 to sublevel 2...
+Jan 10 08:56:28 ubuntu2304.localdomain snapd[588]: patch.go:64: Patching system state level 6 to sublevel 3...
+Jan 10 08:56:28 ubuntu2304.localdomain audit[586]: AVC apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="rsyslogd" pid=586 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain udisksd[593]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Jan 10 08:56:28 ubuntu2304.localdomain haveged[513]: haveged: ver: 1.9.14; arch: x86; vend: GenuineIntel; build: (gcc 11.2.0 ITV); collect: 128K
+Jan 10 08:56:28 ubuntu2304.localdomain haveged[513]: haveged: cpu: (L4 VC); data: 32K (L2 L4 V); inst: 32K (L2 L4 V); idx: 23/40; sz: 31288/55167
+Jan 10 08:56:28 ubuntu2304.localdomain haveged[513]: haveged: tot tests(BA8): A:1/1 B:1/1 continuous tests(B):  last entropy estimate 8.00121
+Jan 10 08:56:28 ubuntu2304.localdomain haveged[513]: haveged: fills: 0, generated: 0
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started udisks2.service - Disk Manager.
+Jan 10 08:56:28 ubuntu2304.localdomain snapd[588]: daemon.go:247: started snapd/2.59.1+23.04ubuntu1.2 (series 16; classic) ubuntu/23.04 (amd64) linux/6.2.0-39-generic.
+Jan 10 08:56:28 ubuntu2304.localdomain rsyslogd[693]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2302.0]
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Started rsyslog.service - System Logging Service.
+Jan 10 08:56:28 ubuntu2304.localdomain rsyslogd[693]: rsyslogd's groupid changed to 109
+Jan 10 08:56:28 ubuntu2304.localdomain rsyslogd[693]: rsyslogd's userid changed to 103
+Jan 10 08:56:28 ubuntu2304.localdomain rsyslogd[693]: [origin software="rsyslogd" swVersion="8.2302.0" x-pid="693" x-info="https://www.rsyslog.com"] start
+Jan 10 08:56:28 ubuntu2304.localdomain kernel: loop3: detected capacity change from 0 to 8
+Jan 10 08:56:28 ubuntu2304.localdomain snapd[588]: daemon.go:340: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Jan 10 08:56:28 ubuntu2304.localdomain snapd[588]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished apport.service - automatic crash report generation.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Finished console-setup.service - Set console font and keymap.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: ssh.socket: Deactivated successfully.
+Jan 10 08:56:28 ubuntu2304.localdomain systemd[1]: Closed ssh.socket - OpenBSD Secure Shell server socket.
+Jan 10 08:56:28 ubuntu2304.localdomain audit[723]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=723 comm="apparmor_parser"
+Jan 10 08:56:28 ubuntu2304.localdomain audit[723]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=723 comm="apparmor_parser"
+Jan 10 08:56:29 ubuntu2304.localdomain audit[1025]: AVC apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/18596/usr/lib/snapd/snap-confine" pid=1025 comm="apparmor_parser"
+Jan 10 08:56:29 ubuntu2304.localdomain audit[1025]: AVC apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/18596/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1025 comm="apparmor_parser"
+Jan 10 08:56:29 ubuntu2304.localdomain systemd-networkd[482]: eth0: Gained IPv6LL
+Jan 10 08:56:29 ubuntu2304.localdomain systemd-timesyncd[496]: Network configuration changed, trying to establish connection.
+Jan 10 08:56:29 ubuntu2304.localdomain audit[1028]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.activate" pid=1028 comm="apparmor_parser"
+Jan 10 08:56:29 ubuntu2304.localdomain audit[1029]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.benchmark" pid=1029 comm="apparmor_parser"
+Jan 10 08:56:29 ubuntu2304.localdomain audit[1030]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.buginfo" pid=1030 comm="apparmor_parser"
+Jan 10 08:56:29 ubuntu2304.localdomain audit[1031]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.check-kernel" pid=1031 comm="apparmor_parser"
+Jan 10 08:56:29 ubuntu2304.localdomain audit[1032]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.daemon" pid=1032 comm="apparmor_parser"
+Jan 10 08:56:29 ubuntu2304.localdomain audit[1033]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.hook.configure" pid=1033 comm="apparmor_parser"
+Jan 10 08:56:29 ubuntu2304.localdomain audit[1034]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.hook.install" pid=1034 comm="apparmor_parser"
+Jan 10 08:56:29 ubuntu2304.localdomain audit[1035]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.hook.remove" pid=1035 comm="apparmor_parser"
+Jan 10 08:56:29 ubuntu2304.localdomain audit[1036]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.lxc" pid=1036 comm="apparmor_parser"
+Jan 10 08:56:29 ubuntu2304.localdomain audit[1037]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.lxc-to-lxd" pid=1037 comm="apparmor_parser"
+Jan 10 08:56:29 ubuntu2304.localdomain systemd[1]: Reloading.
+Jan 10 08:56:29 ubuntu2304.localdomain audit[1066]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.lxd" pid=1066 comm="apparmor_parser"
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: multi-user.target: Wants dependency dropin /etc/systemd/system/multi-user.target.wants/hv-kvp-daemon.service is not a symlink, ignoring.
+Jan 10 08:56:30 ubuntu2304.localdomain audit[1067]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.migrate" pid=1067 comm="apparmor_parser"
+Jan 10 08:56:30 ubuntu2304.localdomain audit[1088]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.user-daemon" pid=1088 comm="apparmor_parser"
+Jan 10 08:56:30 ubuntu2304.localdomain audit[1098]: AVC apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.lxd" pid=1098 comm="apparmor_parser"
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Reloading.
+Jan 10 08:56:30 ubuntu2304.localdomain dbus-daemon[572]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.8' (uid=0 pid=588 comm="/usr/lib/snapd/snapd" label="unconfined")
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: multi-user.target: Wants dependency dropin /etc/systemd/system/multi-user.target.wants/hv-kvp-daemon.service is not a symlink, ignoring.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Started snapd.service - Snap Daemon.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Starting snapd.seeded.service - Wait until snapd is fully seeded...
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+Jan 10 08:56:30 ubuntu2304.localdomain dbus-daemon[572]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Started systemd-timedated.service - Time & Date Service.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Finished snapd.seeded.service - Wait until snapd is fully seeded.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: snapd.autoimport.service - Auto import assertions from block devices was skipped because no trigger condition checks were met.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: tmp-snap.rootfs_zxPQPj.mount: Deactivated successfully.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1160]: ssh.socket: Failed to create listening socket ([::]:22): Address already in use
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: ssh.socket: Failed to receive listening socket ([::]:22): Input/output error
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: ssh.socket: Failed to listen on sockets: Input/output error
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: ssh.socket: Failed with result 'resources'.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Failed to listen on ssh.socket - OpenBSD Secure Shell server socket.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1165]: ssh.socket: Failed to create listening socket ([::]:22): Address already in use
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: ssh.socket: Failed to receive listening socket ([::]:22): Input/output error
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: ssh.socket: Failed to listen on sockets: Input/output error
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: ssh.socket: Failed with result 'resources'.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Failed to listen on ssh.socket - OpenBSD Secure Shell server socket.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Dependency failed for ssh.service - OpenBSD Secure Shell server.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: ssh.service: Job ssh.service/start failed with result 'dependency'.
+Jan 10 08:56:30 ubuntu2304.localdomain CRON[610]: (CRON) info (No MTA installed, discarding output)
+Jan 10 08:56:30 ubuntu2304.localdomain CRON[610]: pam_unix(cron:session): session closed for user root
+Jan 10 08:56:30 ubuntu2304.localdomain lxd.activate[585]: => Starting LXD activation
+Jan 10 08:56:30 ubuntu2304.localdomain lxd.activate[585]: ==> Loading snap configuration
+Jan 10 08:56:30 ubuntu2304.localdomain lxd.activate[585]: ==> Checking for socket activation support
+Jan 10 08:56:30 ubuntu2304.localdomain lxd.activate[585]: ==> Setting LXD socket ownership
+Jan 10 08:56:30 ubuntu2304.localdomain lxd.activate[585]: ==> Setting LXD user socket ownership
+Jan 10 08:56:30 ubuntu2304.localdomain lxd.activate[585]: ==> LXD never started on this system, no need to start it now
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: snap.lxd.activate.service: Deactivated successfully.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Finished snap.lxd.activate.service - Service for snap application lxd.activate.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Reached target multi-user.target - Multi-User System.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Reached target graphical.target - Graphical Interface.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Starting systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP...
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Finished systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: Startup finished in 1.440s (kernel) + 4.036s (userspace) = 5.477s.
+Jan 10 08:56:30 ubuntu2304.localdomain systemd[1]: dmesg.service: Deactivated successfully.
+Jan 10 08:56:31 ubuntu2304.localdomain systemd-networkd[482]: eth0: DHCPv4 address 192.168.121.91/24, gateway 192.168.121.1 acquired from 192.168.121.1
+Jan 10 08:56:31 ubuntu2304.localdomain dbus-daemon[572]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=998 pid=482 comm="/lib/systemd/systemd-networkd" label="unconfined")
+Jan 10 08:56:31 ubuntu2304.localdomain systemd-timesyncd[496]: Network configuration changed, trying to establish connection.
+Jan 10 08:56:31 ubuntu2304.localdomain ModemManager[648]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:06.0': not supported by any plugin
+Jan 10 08:56:31 ubuntu2304.localdomain systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+Jan 10 08:56:31 ubuntu2304.localdomain dbus-daemon[572]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan 10 08:56:31 ubuntu2304.localdomain systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+Jan 10 08:56:31 ubuntu2304.localdomain systemd-hostnamed[1195]: Hostname set to <ubuntu2304.localdomain> (static)
+Jan 10 08:56:57 ubuntu2304.localdomain systemd[1]: systemd-fsckd.service: Deactivated successfully.
+Jan 10 08:56:57 ubuntu2304.localdomain systemd[1]: Starting e2scrub_all.service - Online ext4 Metadata Check for All Filesystems...
+Jan 10 08:56:57 ubuntu2304.localdomain systemd[1]: e2scrub_all.service: Deactivated successfully.
+Jan 10 08:56:57 ubuntu2304.localdomain systemd[1]: Finished e2scrub_all.service - Online ext4 Metadata Check for All Filesystems.
+Jan 10 08:57:01 ubuntu2304.localdomain systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jan 10 08:57:02 ubuntu2304.localdomain systemd-resolved[491]: Clock change detected. Flushing caches.
+Jan 10 08:57:02 ubuntu2304.localdomain systemd-timesyncd[496]: Contacted time server 185.125.190.56:123 (ntp.ubuntu.com).
+Jan 10 08:57:02 ubuntu2304.localdomain systemd-timesyncd[496]: Initial clock synchronization to Wed 2024-01-10 08:57:02.220615 UTC.
+Jan 10 08:57:04 ubuntu2304.localdomain systemd[1]: systemd-timedated.service: Deactivated successfully.
+Jan 10 08:57:31 ubuntu2304.localdomain login[608]: pam_unix(login:session): session opened for user vagrant(uid=1000) by LOGIN(uid=0)
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+Jan 10 08:57:31 ubuntu2304.localdomain systemd-logind[590]: New session 3 of user vagrant.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Queued start job for default target default.target.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Created slice app.slice - User Application Slice.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Reached target paths.target - Paths.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Reached target timers.target - Timers.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Starting dbus.socket - D-Bus User Message Bus Socket...
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Listening on pk-debconf-helper.socket - debconf communication socket.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Reached target sockets.target - Sockets.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Reached target basic.target - Basic System.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1]: Started user@1000.service - User Manager for UID 1000.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1]: Started session-3.scope - Session 3 of User vagrant.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Started snapd.aa-prompt-ui.service - snapd UI prompt.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Reached target default.target - Main User Target.
+Jan 10 08:57:31 ubuntu2304.localdomain systemd[1302]: Startup finished in 69ms.
+Jan 10 08:57:31 ubuntu2304.localdomain snapd-aa-prompt-ui[1311]: AA Prompt UI not implemented
+Jan 10 08:57:38 ubuntu2304.localdomain sudo[1356]:  vagrant : TTY=tty1 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/journalctl
+Jan 10 08:57:38 ubuntu2304.localdomain sudo[1356]: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Jan 10 08:59:31 ubuntu2304.localdomain sudo[1356]: pam_unix(sudo:session): session closed for user root
+Jan 10 08:59:47 ubuntu2304.localdomain sudo[1360]:  vagrant : TTY=tty1 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/journalctl
+Jan 10 08:59:47 ubuntu2304.localdomain sudo[1360]: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
